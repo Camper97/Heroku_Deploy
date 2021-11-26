@@ -10,6 +10,10 @@ app.get("/game", (req, res) => {
   res.send("Zanaty Game!");
 });
 
+app.get("/extrema", (req, res) => {
+  res.send("Hashesh 3mena");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
