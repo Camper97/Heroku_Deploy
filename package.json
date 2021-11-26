@@ -1,0 +1,27 @@
+{
+  "name": "Heroku_Deploy",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camper97/Heroku_Deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Camper97/Heroku_Deploy/issues"
+  },
+  "homepage": "https://github.com/Camper97/Heroku_Deploy#readme",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
